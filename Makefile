@@ -15,3 +15,4 @@ setup:
 	  exit 1; \
 	fi
 	gem install jekyll bundler
+	bundle install
