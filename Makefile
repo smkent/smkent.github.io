@@ -3,6 +3,19 @@ help:
 	@echo "The following recipes are available:"
 	@grep '^[^\.#[:space:]].*:' Makefile | cut -d: -f1 | sort -u | grep -ve '^help$$'
 
+.PHONY: post
+post: POST_FILE=_posts/$(shell date +"%Y-%m-%d")-post.md
+post:
+	( \
+		echo "---"; \
+		echo "layout: post"; \
+		echo "title:  \"\""; \
+		echo "date:   $(shell date --rfc-3339=seconds)"; \
+		echo "categories: "; \
+		echo "---"; \
+	) > $(POST_FILE)
+	$(EDITOR) $(POST_FILE)
+
 .PHONY: serve
 serve:
 	bundle exec jekyll serve --drafts --livereload
