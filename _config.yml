@@ -18,13 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: smkent.github.io
+title: smkent's words
 description: >- # this means to ignore newlines until "baseurl:"
-  smkent's blog
+  By Grabthar's Hammer ... what a savings.
 domain: smkent.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://smkent.github.io # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:day/:title:output_ext
+
 github_username: smkent
+linkedin_username: smkent
 
 # Build settings
 theme: minima
