@@ -25,6 +25,7 @@ domain: smkent.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://smkent.github.io # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year:month:day/:slug:output_ext
+show_excerpts: true
 
 github_username: smkent
 linkedin_username: smkent
