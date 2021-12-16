@@ -200,4 +200,4 @@ Similar to the original guide, deployment of this script uses these steps:
 [linkedin]: https://linkedin.com/in/smkent
 [gscripts]: https://script.google.com
 [original]: https://www.jeffcarp.com/posts/2019/recruiter-auto-reply-bot/
-[no-labor-shortage]: https://qz.com/2012965/the-us-labor-shortage-is-just-a-wage-shortage/
+[no-labor-shortage]: https://web.archive.org/web/20210729212526/https://www.nytimes.com/2021/05/20/briefing/labor-shortages-covid-wages.html
