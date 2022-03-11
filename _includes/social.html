@@ -1,0 +1,9 @@
+{%- assign social = site.minima.social_links -%}
+
+<ul class="social-media-list">
+  <li><a class="rss" href="{{ 'feed.xml' | relative_url }}"><i class="fa-solid fa-square-rss"></i></a></li>
+  <li><a id="m_to"><i class="fa-solid fa-envelope"></i></a></li>
+  {%- if social.github -%}<li><a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" target="_blank" title="{{ social.github | escape }}"><i class="fa-brands fa-github"></i></a></li>{%- endif -%}
+  {%- if social.linkedin -%}<li><a rel="me" href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" target="_blank" title="{{ social.linkedin | escape }}"><i class="fa-brands fa-linkedin-in"></i></a></li>{%- endif -%}
+  {%- if social.keybase -%}<li><a rel="me" href="https://keybase.io/{{ social.keybase | cgi_escape | escape }}" target="_blank" title="{{ social.keybase | escape }}"><i class="fa-brands fa-keybase"></i></li>{%- endif -%}
+</ul>

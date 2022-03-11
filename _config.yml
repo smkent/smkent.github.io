@@ -31,9 +31,22 @@ github_username: smkent
 linkedin_username: smkent
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima@69664442e5a45f631d5bccaba6d7978a91ce22c8
 plugins:
   - jekyll-feed
+minima:
+  skin: dark
+  date_format: "%B %-d, %Y"
+  social_links:
+    github: smkent
+    linkedin: smkent
+    keybase: smkent
+
+collections:
+  tags:
+    output: true
+    permalink: tag/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
