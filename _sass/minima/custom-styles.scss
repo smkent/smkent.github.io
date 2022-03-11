@@ -2,7 +2,122 @@
 @import "fontawesome/solid";
 @import "fontawesome/brands";
 
-.social-media-list li a {
-    border: none;
-    font-size: 150%;
+body { background: #00090d url(../img/light-sketch-65.png) 0 0; }
+
+header.site-header {
+    border-top: 0px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid lighten($code-background-color, 10%);
+    text-align: center;
+    line-height: unset;
+
+    .site-nav {
+        float: unset;
+        text-align: center;
+
+        .trigger {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    }
+
+    .site-title {
+        float: unset;
+        font-weight: bold;
+        break-after: always;
+        line-height: 54px;
+        font-size: 240%;
+
+        background-color: #ddd;
+        background-image: linear-gradient(0deg, #999, #fff);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        text-fill-color: transparent;
+
+        &:hover { text-decoration: none; }
+
+        &::after {
+            display: block;
+            content: "";
+        }
+    }
+}
+
+footer.site-footer {
+    border-top: 0px;
+
+    .social-media-list li {
+        margin: unset;
+        a {
+            border: none;
+            font-size: 125%;
+        }
+        a.rss {
+            &:active, &:link, &:visited { color: $rss-button-color; }
+            &:hover { color: $link-hover-color; }
+        }
+    }
+
+    .footer-col {
+        text-align: center;
+        color: darken($brand-color, 40%);
+
+        p {
+            font-size: 90%;
+            margin: 0;
+        }
+    }
+}
+
+code { color: $code-span-color; }
+pre code { color: unset; }
+
+.highlight pre {
+    border-radius: 6px;
+}
+
+a.post-link {
+    &, &:active, &:link, &:visited { color: $post-title-color; }
+    &:hover { color: $link-hover-color; }
+}
+.post-link, .post-title {
+    color: $post-title-color;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $heading-color;
+}
+
+.post-content {
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: .5rem;
+      font-weight: bold;
+      line-height: 1.25;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      // margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      // margin-top: 1.5rem;
+      font-size: 1.25rem;
+    }
+
+    h4, h5, h6 {
+      // margin-top: 1rem;
+      font-size: 1rem;
+    }
 }
