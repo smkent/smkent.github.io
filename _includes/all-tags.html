@@ -1,0 +1,8 @@
+<h3><i class="fa-solid fa-tags"></i>&nbsp;&nbsp;All tags</h3>
+<span class="post-tags all-tags">
+{% assign tags_by_count = site.tags | sort: "post_count" | reverse %}
+{% for tag_page in tags_by_count %}
+{% assign tag_name = tag_page.url|split: "/"|slice: 2|first %}
+<a href="{{ tag_page.url | relative_url }}">{{ tag_name }}</a>&nbsp;&nbsp;&nbsp;
+{% endfor %}
+</span>

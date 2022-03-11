@@ -1,3 +1,7 @@
+.PHONY: build
+build:
+	./mktags
+
 .PHONY: help
 help:
 	@echo "The following recipes are available:"
@@ -11,7 +15,7 @@ post:
 		echo "layout: post"; \
 		echo "title:  \"\""; \
 		echo "date:   $(shell date --rfc-3339=seconds)"; \
-		echo "categories: "; \
+		echo "tags: "; \
 		echo "---"; \
 	) > $(POST_FILE)
 	$(EDITOR) $(POST_FILE)

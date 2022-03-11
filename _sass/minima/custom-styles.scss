@@ -88,36 +88,49 @@ a.post-link {
     color: $post-title-color;
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 5px;
+}
+.post-list h3 {
+    margin-bottom: unset;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
     color: $heading-color;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+
+    time.dt-published {
+        font-weight: bold;
+    }
+}
+
+.post-tags a {
+    &, &:active, &:link, &:visited { color: $post-tags-link-color; }
+    &:hover { color: $link-hover-color; }
+}
+
+.all-tags a {
+    background-color: $code-background-color;
+    border: 1px solid lighten($code-background-color, 10%);
+    border-radius: 3px;
+    padding: 5px 10px;
 }
 
 .post-content {
     h1, h2, h3, h4, h5, h6 {
-      margin-bottom: .5rem;
-      font-weight: bold;
-      line-height: 1.25;
-      text-rendering: optimizeLegibility;
+        margin-bottom: .5rem;
+        line-height: 1.25;
+        text-rendering: optimizeLegibility;
     }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
+    h4, h5, h6 { font-size: 1rem; }
+}
 
-    h1 {
-      font-size: 2rem;
-    }
-
-    h2 {
-      // margin-top: 1rem;
-      font-size: 1.5rem;
-    }
-
-    h3 {
-      // margin-top: 1.5rem;
-      font-size: 1.25rem;
-    }
-
-    h4, h5, h6 {
-      // margin-top: 1rem;
-      font-size: 1rem;
-    }
+.post-archive {
+    date { float: right; }
 }
