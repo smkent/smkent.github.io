@@ -145,6 +145,11 @@ h1, h2, h3, h4, h5, h6 {
     h4, h5, h6 { font-size: 1rem; }
 }
 
+.post-nav {
+    margin-top: 3rem;
+    color: darken($brand-color, 20%);
+}
+
 .post-archive {
     date { float: right; }
 }

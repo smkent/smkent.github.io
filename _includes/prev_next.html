@@ -1,10 +1,14 @@
-<div class="prev-next">
-  {% if include.prev_url %}
-    <a class="half prev" href="{{ include.prev_url }}">&laquo; {{ include.prev_text }}</a>
-  {% else %}
-    <a class="half prev"></a>
-  {% endif %}
+{% if include.next_url || include.prev_url %}
+<div class="post-nav">
   {% if include.next_url %}
-    <a class="half next" href="{{ include.next_url }}">{{ include.next_text }} &raquo;</a>
+    <i class="fa-solid fa-angles-right"></i>
+    <a href="{{ include.next_url }}">{{ include.next_text }}</a><br />
   {% endif %}
+  {% if include.prev_url %}
+    <i class="fa-solid fa-angles-left"></i>
+    <a href="{{ include.prev_url }}">{{ include.prev_text }}</a><br />
+  {% endif %}
+    <i class="fa-solid fa-paper-plane"></i>
+    <a href="{{ "/all" | relative_url }}">All posts</a><br />
 </div>
+{% endif %}
