@@ -77,6 +77,14 @@ footer.site-footer {
     }
 }
 
+blockquote {
+    font-style: unset;
+    font-size: 1.1rem;
+    border-left-color: $blockquote-border-color;
+
+    i, em { font-style: italic; }
+}
+
 code { color: $code-span-color; }
 pre code { color: unset; }
 
