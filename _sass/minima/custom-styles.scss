@@ -38,6 +38,10 @@ header.site-header {
         -moz-text-fill-color: transparent;
         text-fill-color: transparent;
 
+        @include media-query($on-palm) {
+            padding-right: unset;
+        }
+
         &:hover { text-decoration: none; }
 
         &::after {
@@ -107,9 +111,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.post-tags a {
-    &, &:active, &:link, &:visited { color: $post-tags-link-color; }
-    &:hover { color: $link-hover-color; }
+.post-tags
+{
+    @include media-query($on-palm) {
+        &::before{
+            display: table;
+            content: "";
+        }
+    }
+
+    a {
+        &, &:active, &:link, &:visited { color: $post-tags-link-color; }
+        &:hover { color: $link-hover-color; }
+    }
 }
 
 .all-tags a {
