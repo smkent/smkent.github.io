@@ -92,7 +92,9 @@ a.post-link {
     color: $post-title-color;
     font-size: 2rem;
     font-weight: bold;
+    letter-spacing: -1px;
     margin-bottom: 5px;
+    line-height: 1.15;
 }
 .post-list h3 {
     margin-bottom: unset;
