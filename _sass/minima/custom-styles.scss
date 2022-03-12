@@ -77,6 +77,11 @@ footer.site-footer {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: $heading-color;
+}
+
 blockquote {
     font-style: unset;
     font-size: 1.1rem;
@@ -108,9 +113,8 @@ a.post-link {
     margin-bottom: unset;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    color: $heading-color;
+header.post-header {
+    margin-bottom: unset;
 }
 
 .post-meta {
@@ -145,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content {
     h1, h2, h3, h4, h5, h6 {
+        margin-top: 2rem;
         margin-bottom: .5rem;
         line-height: 1.25;
         text-rendering: optimizeLegibility;
