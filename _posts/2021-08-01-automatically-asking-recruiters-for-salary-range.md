@@ -2,7 +2,7 @@
 layout: post
 title: "Automatically asking recruiters for salary range"
 slug: recruiter-robot
-tags: tech-industry compensation recruiters code
+tags: tech-industry compensation recruiters code employment
 redirect_from:
 - /20210801/recruiter-robot.html
 ---
