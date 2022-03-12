@@ -13,8 +13,8 @@ post:
 	( \
 		echo "---"; \
 		echo "layout: post"; \
-		echo "title:  \"\""; \
-		echo "date:   $(shell date --rfc-3339=seconds)"; \
+		echo "title: \"$(TITLE)\""; \
+		echo "date: $(shell date --rfc-3339=seconds | sed -e 's/\(\:[0-9]\{2\}\)\{2\}/:00:00/g')"; \
 		echo "tags: "; \
 		echo "---"; \
 	) > $(POST_FILE)
