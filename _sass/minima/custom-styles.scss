@@ -77,6 +77,19 @@ footer.site-footer {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: $heading-color;
+}
+
+blockquote {
+    font-style: unset;
+    font-size: 1.1rem;
+    border-left-color: $blockquote-border-color;
+
+    i, em { font-style: italic; }
+}
+
 code { color: $code-span-color; }
 pre code { color: unset; }
 
@@ -92,15 +105,16 @@ a.post-link {
     color: $post-title-color;
     font-size: 2rem;
     font-weight: bold;
+    letter-spacing: -1px;
     margin-bottom: 5px;
+    line-height: 1.15;
 }
 .post-list h3 {
     margin-bottom: unset;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    color: $heading-color;
+header.post-header {
+    margin-bottom: unset;
 }
 
 .post-meta {
@@ -135,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content {
     h1, h2, h3, h4, h5, h6 {
+        margin-top: 2rem;
         margin-bottom: .5rem;
         line-height: 1.25;
         text-rendering: optimizeLegibility;
@@ -143,6 +158,11 @@ h1, h2, h3, h4, h5, h6 {
     h2 { font-size: 1.5rem; }
     h3 { font-size: 1.25rem; }
     h4, h5, h6 { font-size: 1rem; }
+}
+
+.post-nav {
+    margin-top: 3rem;
+    color: darken($brand-color, 20%);
 }
 
 .post-archive {

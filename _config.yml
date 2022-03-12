@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: smkent.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://smkent.github.io # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:year:month:day/:slug:output_ext
+permalink: /:year/:slug
 show_excerpts: true
 
 github_username: smkent
@@ -35,6 +35,7 @@ linkedin_username: smkent
 remote_theme: jekyll/minima@69664442e5a45f631d5bccaba6d7978a91ce22c8
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 minima:
   skin: dark
   date_format: "%B %-d, %Y"

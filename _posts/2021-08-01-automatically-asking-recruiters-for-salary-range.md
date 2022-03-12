@@ -3,6 +3,8 @@ layout: post
 title: "Automatically asking recruiters for salary range"
 slug: recruiter-robot
 tags: tech-industry compensation recruiters code
+redirect_from:
+- /20210801/recruiter-robot.html
 ---
 
 Like many experienced software engineers, I receive a steady stream of email
