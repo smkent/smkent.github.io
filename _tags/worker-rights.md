@@ -1,4 +1,4 @@
 ---
 layout: tag
-post_count: 1
+post_count: 2
 ---
