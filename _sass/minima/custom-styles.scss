@@ -160,6 +160,17 @@ header.post-header {
     h4, h5, h6 { font-size: 1rem; }
 }
 
+div.linked-post {
+    > div {
+        border: 3px double $blockquote-border-color; // darken($post-title-color, 60%);
+        border-radius: 8px;
+        padding: 10px 15px;
+    }
+    a.post-link { font-size: 70%; }
+    h1.post-title { margin-top: initial; }
+    p.post-meta { margin-bottom: initial; }
+}
+
 .post-nav {
     margin-top: 3rem;
     color: darken($brand-color, 20%);
