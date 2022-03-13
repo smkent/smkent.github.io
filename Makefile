@@ -8,7 +8,7 @@ help:
 	@grep '^[^\.#[:space:]].*:' Makefile | cut -d: -f1 | sort -u | grep -ve '^help$$'
 
 .PHONY: post
-post: POST_FILE=_posts/$(shell date +"%Y-%m-%d")-post.md
+post: POST_FILE=_posts/$(shell date --rfc-3339=date)-post.md
 post:
 	( \
 		echo "---"; \
