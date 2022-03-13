@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Non-competes are wage suppression tools"
+date: 2022-03-12 13:00:00-08:00
 tags: employment tech-industry worker-rights
 ---
 
@@ -103,7 +104,7 @@ is a business tool that serves a valid purpose.
 # I am altering the deal
 
 I have received offer letters multiple times during my career which reference
-additional employment terms that aren't provided with the initial offer letter.
+additional employment terms that weren't provided with the initial offer letter.
 
 Employment contracts can have sweeping terms and effects. It's important to read
 everything in full before signing an offer. I always ask for a copy of the full
