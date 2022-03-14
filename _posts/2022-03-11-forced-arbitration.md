@@ -127,7 +127,7 @@ only increasing.
 Employers routinely claim:
 
 * _Arbitration is fair._  [Data shows arbitration cases overwhelmingly favor
-  employers][ca-data], and that and financial awards are lower than outcomes in
+  employers][ca-data], and that financial awards are lower than outcomes in
   court cases. Arbitrators often rule for the employer to ensure repeat
   business. Most importantly, arbitrators are not required to rule based on the
   legal merits of a case at all!
