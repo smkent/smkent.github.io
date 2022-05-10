@@ -129,7 +129,7 @@ non-compete clause in their initial offer terms][chilling-effect-data].
 
 # Pray I don't alter it further
 
-Who does your employer compete with? Many non-compete clauses doesn't
+Who does your employer compete with? Many non-compete clauses don't
 specifically say. Who your employer considers to be a competitor may surprise
 you. The list of companies your employer competes with can also _change over
 time_.
@@ -138,7 +138,7 @@ I had a non-compete clause in my employment agreement when I worked for Zillow.
 When I signed my offer, I generally understood the non-compete to mean I
 couldn't quit to go work for Redfin. During one all-company meeting, leadership
 mentioned Airbnb as a competitor to Zillow. In my mind, Zillow and Airbnb were
-sufficiently different that I my non-compete wouldn't prevent me from quitting
+sufficiently different that my non-compete wouldn't prevent me from quitting
 at Zillow to work for Airbnb. But, in that moment, I realized there were more
 companies than I thought where quitting for a new job could put me in legal
 jeopardy.
